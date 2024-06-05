@@ -27,8 +27,8 @@ async def attack(update: Update, context: CallbackContext) -> None:
     await update.message.reply_text(result.stdout.decode('utf-8'))
 
 def main():
-    # Replace 'YOUR TOKEN HERE' with your bot's token
-    application = Application.builder().token("7382672859:AAEHvpygRw_Rmz0mJAAIloNlyzr6G2miPcE").build()
+    # Replace '7380371428:AAFhHwa6AXO9cBjHydpq38pG_-pONzrR-Zgt's token
+    application = Application.builder().token("7380371428:AAFhHwa6AXO9cBjHydpq38pG_-pONzrR-Zg").build()
 
     # on different commands - answer in Telegram
     application.add_handler(CommandHandler("start", start))
