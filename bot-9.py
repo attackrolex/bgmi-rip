@@ -11,12 +11,12 @@ logging.basicConfig(
 logger = logging.getLogger(__name__)
 
 # API credentials from Telegram
-api_id = 'your_api_id'
-api_hash = 'your_api_hash'
-bot_token = 'your_bot_token'
+api_id = '2991540'
+api_hash = 'e7f5969accf95bd9dea772e56e495bce'
+bot_token = '7380371428:AAFhHwa6AXO9cBjHydpq38pG_-pONzrR-Zg'
 
 # List of allowed user IDs
-allowed_user_ids = ["1153378905", "1048241028"]  # Add your subscribers' Telegram user IDs here
+allowed_user_ids = ["6682104026", "1048241028"]  # Add your subscribers' Telegram user IDs here
 
 # Initialize the Telegram client
 client = TelegramClient('bot', api_id, api_hash).start(bot_token=bot_token)
